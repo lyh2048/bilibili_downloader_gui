@@ -1,44 +1,56 @@
-# 哔哩哔哩下载器
+# 哔哩哔哩 (゜-゜)つロ 干杯~
 
-🤡：哔哩哔哩视频下载
+[![logo](assets/favicon.ico)](https://www.bilibili.com/)   使用`wxPython`开发的B站视频下载工具，实现了扫码登录、视频下载等功能，但仍存在许多不足与bug。如果发现错误，还请在`Issues`中指出，欢迎`Fork`和`Pull requests`改善代码，谢谢！
 
-## 使用
+[![img](assets/header-logo-16430753653433.png)](https://www.wxpython.org/)
 
-1、安装依赖
+[Installation](#Installation) | [Usage](#Usage) | [Example](#Example) | [Thank](#Thank)
+
+- [ ] 密码登录
+- [ ] 短信登录
+- [ ] SNS登录（QQ&微博）
+- [x] 二维码登录
+- [x] 视频下载
+- [ ] 视频清晰度选择
+- [ ] 下载进度条
+
+ʕ•̫͡•ʔ-̫͡-ʕ•͓͡•ʕ•̫͡•ʔ-̫͡-ʕ•͓͡•ʔ-̫͡-ʔ
+
+## Installation
+
+1、克隆仓库
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/lyh2048/bilibili_downloader_gui.git
 ```
 
-`注意：需要用到FFmpeg来合并音频和视频`
-
-👉[FFmpeg](https://ffmpeg.org/)👈
-
-2、运行
+2、进入目录
 
 ```bash
-python main.py
+cd bilibili_downloader_gui
 ```
 
-## 效果展示
+3、安装依赖
 
-1、输入视频的BV号，获取视频下载地址
+```bash
+pip install -r ./requirements.txt
+```
 
-![image-20211110194421065](assets/image-20211110194421065.png)
+Then enjoy it ~
 
-2、点击要下载的视频分P
+## Usage
 
-![image-20211110194432959](assets/image-20211110194432959.png)
+```bash
+python ./main.py
+```
 
-2、选择视频清晰度（默认高清 1080P）
+## Example
 
-![image-20211110194445780](assets/image-20211110194445780.png)
+![image-20220125121552762](assets/image-20220125121552762.png)
 
-点击下载按钮开始下载
+## Thank
 
-![image-20211110194909637](assets/image-20211110194909637.png)
+[bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect)
 
-![image-20211110194925208](assets/image-20211110194925208.png)
-
-![image-20211110194937507](assets/image-20211110194937507.png)
+[Welcome to wxPython!](https://www.wxpython.org/)
 

@@ -1,10 +1,11 @@
-from app import MyApp
-from config import Config
-import os
+from app import BApp
+
+
+'''
+哔哩哔哩视频下载工具
+'''
 
 
 if __name__ == '__main__':
-    if not os.path.exists(Config.temp):
-        os.makedirs(Config.temp)
-    app = MyApp()
+    app = BApp()
     app.MainLoop()

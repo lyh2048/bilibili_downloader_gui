@@ -129,5 +129,6 @@ dmypy.json
 .pyre/
 
 # 自定义
-*mp4
+*.mp4
 temp/
+data/
